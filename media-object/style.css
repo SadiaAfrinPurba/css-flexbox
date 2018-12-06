@@ -1,0 +1,27 @@
+.media{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: cadetblue;
+
+
+}
+.figure{
+    flex: 1 1 10%;
+    align-self: flex-start;
+    border:2px solid brown;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+
+.media-body{
+    flex: 1 1 90%;
+    align-self: center;
+    /* padding-left: 10px; */
+    margin-top: 10px;
+
+
+}
+p{
+    margin: 0 10px 20px 10px;
+}

@@ -1,0 +1,20 @@
+.row{
+    display:flex;
+    
+}
+.col{
+    flex:1; /*1 1 0%*/
+    
+    
+}
+.col div{
+   background-color: cadetblue;
+   padding: 5px;
+   height: 100%;
+}
+.space{
+    margin: -5px 8px 8px -10px;
+}
+.space .col{
+    padding: 10px 0 0 10px;
+}
